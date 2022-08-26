@@ -1,4 +1,3 @@
-
 <!DOCTYPE html> 
 <html>
   <head>
@@ -11,20 +10,60 @@
           <<body>
                <header>
             <div style="margin: auto">
-                <h1 style="background: #D3D3D3"><img src="logo.png" width="250px"></h1>
+                <h1 style="background: url(8x12ft-interior-dim-cinza-cinza-parede-de-concreto-personalizado-fotografia-pano-fundo-est-dio-vinil-8x15.jpg); padding: 40px"><img src="logo.png" width="250px" ></h1>
 
                    <nav style="display: inline ; margin: 0 0 0 15px">
                    </ul>
+
                    <li style="text-transform: uppercase;color: #DCDCDC ; font-weight: bold; font-size: 22px; text-decoration: none; position: top 110px; right: 0 ; display: inline; margin: 150px 150px 100px 150px; position:absolute; top: 80px ; right: 0;
-                   "> <a href="index.html">home</a></li>
-                   <li style="text-transform: uppercase;color: #DCDCDC ; font-weight: bold; font-size: 22px; text-decoration: none;position: top 110px; right: 0 ; display: inline; margin: 150px 150px 100px 150px; position:absolute; top: 130px ; right: 0;"> <a href="Produtos.html">Lanches</a></li>
-                  <li style="text-transform: uppercase;color: #DCDCDC ; font-weight: bold; font-size: 22px; text-decoration: none;position: top 110px; right: 0 ; display: inline; margin: 150px 150px 100px 150px; position:absolute; top: 180px ; right: 0;"> <a href="Contato.html">Contato</a></li>
+
+
+                   "> <a href="index.html">home</a>
+
+               </li>
+
+                   <li style="text-transform: uppercase;color: #DCDCDC ; font-weight: bold; font-size: 22px; text-decoration: none;position: top 110px; right: 0 ; display: inline; margin: 150px 150px 100px 150px; position:absolute; top: 130px ; right: 0;"> 
+
+                    <a href="Produtos.html">Lanches</a>
+
+                </li>
+
+                  <li style="text-transform: uppercase;color: #DCDCDC ; font-weight: bold; font-size: 22px; text-decoration: none;position: top 110px; right: 0 ; display: inline; margin: 150px 150px 100px 150px; position:absolute; top: 180px ; right: 0;"> 
+
+                    <a href="Contato.html">Contato</a>
+
+                </li>
+
                    </ul>
                   </nav>
                </header>
             </dive>
             <main>
-              Pastel de fran
-          </body>
+                <ul class="Produtos">
+                   
+                    <li style="display: inlane-block;width: 940px;
+    margin: 0 auto; text-align: center; width: 30%; background: #CCCCCC; adding: 30px 40px ; box-sizing: border-box; border-color: #000000; border-width:2px ; border-style: solid; border-radius: 30px">
+
+                      <h2 style="font-size: 30px; font-weight: bold;"> Lanches quentes e naturais e Salgados Big </h2> 
+                       <img src= "eb5c20e9-9abd-48cd-af9a-82173fbb3cb2.jfif" width= 280px; >
+                       <p style="font-size: 18px; margin-top: 10px"> Lanches quentes e naturais: Você escolhe o sabor</p>
+                       <p style="font-size:22px; font-weight: bold; margin: 10px 0 0"> R$: 10,00 </p>
+
+                    </li>
+
+                    <li style="display: inlane-block;width: 940px ; margin: 150px auto; text-align: center ; width: 30%; background: #CCCCCC; padding: 30px 40px ; box-sizing: border-box; border-color: #000000; border-width:2px ; border-style: solid; border-radius: 30px; ">
+
+                       <h2 style="font-size: 30px; font-weight: bold;">  Bebidas  </h2> 
+                        <img src="1d6a2b07-ca62-4258-97fd-720e924b2959.jfif" width= 280px; >
+                         <p style="font-size: 18px; margin-top: 10px;"> Bebidas Naturais</p>
+                         <p style="font-size: 22px; font-weight: bold; margin: 10px 0 0"> R$: 11,50 </p>
+
+                    </li>
+
+                    <footer>
+                             <p style="text-align: center; font-weight: bold; font-size: 30px;  ">  Copyright Lanchonete do Batata - 2022 © </p>
+                         </footer>
+                </ul>
+          </body> 
      </html>
 

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="filtro.js">
     <head>
         <meta name="viewport" content="width=device-width">
-        <h1 style= "font-family:'Montserrat', sans-serif;">Peixaria do Siri</h1>
+        <h1 style= "text-align: center;font-family:'Montserrat', sans-serif;"><STRONG>Lanchonete do Batata</STRONG></h1>
          <div class="caixa">
     <h1 style="text-align: center; background: whitesmoke;"><img src="Peixe.jpg"></h1>
 
@@ -13,11 +13,11 @@
         <ul style= "display: inline;">
            
             <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="index.html"><strong>Home</strong></a></li>
-            <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="produtos.html"><strong>Produtos</strong></a></li>
-            <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="contato.html"><strong>Contato</strong></a></li>
-            <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="pedidos.html"><strong>Pedidos</strong></a></li>
+            <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="Produtos.html"><strong>Produtos</strong></a></li>
+            <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="Contato.html"><strong>Contato</strong></a></li>
+            <li><a style= "font-family:'Montserrat', sans-serif; font-weight: bold; color: #000000; text-transform: uppercase; font-size: 22px; text-decoration: none;" href="Pedidos.html"><strong>Pedidos</strong></a></li>
         <meta charset="UTF-8">
-        <title>Peixaria do Siri</title>
+        <title>lanchonete do batata</title>
         <link rel="stylesheet" href="style.css">
         </header>
       <body>
@@ -32,69 +32,53 @@
           <section class="container">
             <h2 style="font-family:'Montserrat', sans-serif;">Clientes</h2>
               
-              <label for="filtrar">   Filtre:           </label>
-            <input style="width: 200px; height: 35px; margin-botton: 10px;"
-type="text" name="filtro" id="filtrar" placeholder="Digite o nome do paciente">
-              
-              
-              
-              
-              
-            <table>
-              <thead>
+              <label for="filtrar">   Filtre:           </label><wks>
                 <tr>
                   <th>Nome</th>
                   <th>Produto</th>
-                  <th>KG</th>
-                  <th>Valor por KG</th>
+                  <th>Ml</th>
                   <th>Preço total</th>
                 </tr>
               </thead>
              <tbody id="tabela-clientes">
                <tr class="Clientes">
-                 <td class="info-nome">Paulo</td>
-                 <td class="info-produto">Camarão</td>
-                 <td class="info-kg">2</td>
-                 <td class="info-valor">60,00</td>
-                 <td class="info-total">120,00</td>
+                 <td class="info-nome">Julio</td>
+                 <td class="info-produto">Café</td>
+                 <td class="info-kg">150ml</td>
+                 <td class="info-valor">11.50</td>
+                 <td class="info-total">11,50</td>
                </tr>
                
                  <tr class="Clientes">
-                 <td class="info-nome">Juliaa</td>
-                 <td class="info-produto">Lula</td>
-                 <td class="info-kg">4</td>
-                 <td class="info-valor">65,00</td>
-                 <td class="info-total">260,00</td>
+                 <td class="info-nome">Mariana</td>
+                 <td class="info-produto">Pastel de Carne</td>
+                 <td class="info-kg">N/A</td>
+                 <td class="info-valor">0</td>
+                 <td class="info-total">10,00</td>
                </tr>
                
                  <tr class="Clientes">
-                 <td class="info-nome">Sonia</td>
-                 <td class="info-produto">Peixe</td>
-                 <td class="info-kg">1</td>
-                 <td class="info-valor">40,00</td>
-                 <td class="info-total">40,00</td>
+                 <td class="info-nome">Gomes</td>
+                 <td class="info-produto">Salgado big: Batata com bacon</td>
+                 <td class="info-kg">N/A</td>
+                 <td class="info-valor">10,00</td>
+                 <td class="info-total">10,00</td>
                </tr>
                
-                 <tr class="Clientes">
-                 <td class="info-nome">Rafael</td>
-                 <td class="info-produto">Lula</td>
-                 <td class="info-kg">3</td>
-                 <td class="info-valor">65,00</td>
-                 <td class="info-total">195,00</td>
-               </tr>
+               
               </tbody>
             </table>
           </section>
         </main>
           
           <section class="container">
-              <h2 style="font-family:'Montserrat', sans-serif;" id="titulo-form">Adicionar novo Cliente</h2>
+              <h2 style="font-family:'Montserrat', sans-serif;" id="titulo-form">Adicionar novo Cliente na Lanchonete</h2>
               <form id="form-adicionar">
                   <div class="grupo">
                       <label style="
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;" for="nome">Nome:</label>
+    margin: 0 0 30px;" for="nome">Nome:</label>
                       <input style="
     display: block;
     font-size: 30px;
@@ -110,16 +94,16 @@ type="text" name="filtro" id="filtrar" placeholder="Digite o nome do paciente">
     display: block;
     font-size: 30px;
     margin: 0 0 10px;" id="produto" name="produto" type="text" placeholder="digite o produto do seu cliente" class="campo">
-                  </div>
+                  </div><wks>
                     <div class="grupo">
                       <label style="
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;" for="kg">Quilos:</label>
+    margin: 0 0 10px;" for="Ml">Ml:</label>
                       <input style="
     display: block;
     font-size: 30px;
-    margin: 0 0 10px;" id="kg" name="kg" type="text" placeholder="digite quantos kg o cliente quer" class="campo">
+    margin: 0 0 10px;" id="ML" name="ML" type="text" placeholder="digite quantos Ml o Copo ou o Produto tem " class="campo">
                   </div>
                         <button style="
     display: block;
@@ -137,9 +121,8 @@ type="text" name="filtro" id="filtrar" placeholder="Digite o nome do paciente">
                         <script src="filtro.js"></script>
           <footer style= "text-align: center; ">
     <img src="Peixe2.jpg">
-    <p class="copyright">&copy; Copyright Peixaria do Siri - 2020</p>
+    <p class="copyright">&copy; Copyright Lanchonete do Batata - 2022 ©</p>
 </footer>
 </html>
         </body>
       </html>
-               

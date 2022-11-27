@@ -48,7 +48,7 @@ botaoAdicionar.addEventListener("click", function(event){
                 var form = document.querySelector("#form-adicionar")
                  console.log(form.nome)
                  console.log(form.produto)
-                console.log(form.kg)
+                console.log(form.Ml)
                 
                 var clienteTr = document.createElement("tr")
                 
@@ -62,7 +62,7 @@ botaoAdicionar.addEventListener("click", function(event){
                 
                 nomeTd.textContent = nome 
                 produtoTd.textContent = produto
-                kgTd.textContent = kg
+                kgTd.textContent = Ml
                 valorTd.textContent = valor
                 totalTd.textContent = total
                 
@@ -117,7 +117,7 @@ botao.addEventListener("click", function()){
                     
                 nomeTd.textContent = nome 
                 produtoTd.textContent = produto
-                kgTd.textContent = kg
+                kgTd.textContent = Ml
                 valorTd.textContent = valor
                 totalTd.textContent = total
                 
